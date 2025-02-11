@@ -3,7 +3,7 @@ Description=Raspberry Pi Fan Control Service
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/pi/fan_control.py
+ExecStart=/usr/bin/python3 /home/pi/fan_controller.py
 Restart=always
 User=pi
 WorkingDirectory=/home/pi
